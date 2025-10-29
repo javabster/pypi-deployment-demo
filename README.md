@@ -70,9 +70,10 @@ Add some information into the README.md that is in the package directory: `pdb_t
 Once your tests are passing, you can move on to building and deploying!
 1) Edit the `project.toml` file with your own project name and other metadata.
 2) cd into pdb_tools and run `python3 -m build`. You should now see a `dist/`
-3) Create a test PyPi account and generate an API key.
+3) Create a test PyPi account (https://test.pypi.org/) and generate an API key.
+   - Account settings -> scroll down to API tokens
 4) Run `twine upload --repository testpypi dist/*`. You will need to provide the API key here.
-5) View the page on test.pypi.org.
+5) View the page on test.pypi.org. It should tell you the page if the previous step was successful.
 6) Exit out of the docker container and create a new container.
 7) Confirm there are no installations by running `python3 runner.py`. It should fail.
 8) Install the package from test pypi using the command on the project page.

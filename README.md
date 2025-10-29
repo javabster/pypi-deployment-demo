@@ -69,6 +69,7 @@ Add some information into the README.md that is in the package directory: `pdb_t
 
 Once your tests are passing, you can move on to building and deploying!
 1) Edit the `project.toml` file with your own project name and other metadata.
+   - https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
 2) cd into pdb_tools and run `python3 -m build`. You should now see a `dist/`
 3) Create a test PyPi account (https://test.pypi.org/) and generate an API key.
    - Account settings -> scroll down to API tokens

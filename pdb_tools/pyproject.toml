@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "your_name_pdb_tools"
-version = "0.1.0"
+name = "javabster_pdb_tools"
+version = "0.1.1"
 description = "Tools to work with PDB files"
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-    {name = "Your Name", email = "you@example.com"}
+    {name = "Abby Mitchell", email = "you@example.com"}
 ]
 keywords = ["biology", "bioinformatics", "protein"]
 classifiers = [
@@ -21,4 +21,4 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/yourrepo"
+Homepage = "https://github.com/javabster/pypi-deployment-demo"
